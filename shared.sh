@@ -5,7 +5,7 @@
 # QEMU_DEFCONFIG=configs/raspberrypi3_64_defconfig
 # The place we store customizations to the qemu configuration
 
-DEFCONFIG_FILE=base_external/configs/qemu_defconfig
+DEFCONFIG_FILE=base_external/configs/demo_stm32mp157f_dk2_defconfig
 
 if [ $# -eq 1 ]; then
   echo "defconfig:$1"
