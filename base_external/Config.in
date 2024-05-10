@@ -1,1 +1,2 @@
 source "$BR2_EXTERNAL_BRTEMPLATE_PATH/package/hello-world/Config.in"
+source "$BR2_EXTERNAL_BRTEMPLATE_PATH/package/qt-calculator/Config.in"

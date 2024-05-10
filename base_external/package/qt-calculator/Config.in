@@ -1,0 +1,7 @@
+
+config BR2_PACKAGE_QT_CALCULATOR
+	bool "Qt game package"
+	depends on BR2_PACKAGE_QT5
+	select BR2_PACKAGE_QT5BASE_WIDGETS
+	help
+	  Qt game package
